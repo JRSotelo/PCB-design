@@ -12,3 +12,6 @@ fp-info-cache
 *.net
 *.dsn
 *.ses
+*.lock
+*.lck
+*.bak
