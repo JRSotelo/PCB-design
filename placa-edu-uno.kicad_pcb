@@ -10476,7 +10476,7 @@
 		(uuid "a4f8d812-5f80-4c15-8621-84a04c8e5c2b")
 		(at 14.97464 9.144)
 		(property "Reference" "J6"
-			(at -2.93464 -0.064 0)
+			(at -3.91464 -0.054 0)
 			(layer "F.SilkS")
 			(uuid "ecd2fa2f-ce27-438f-b45f-71d97267d46a")
 			(effects
@@ -11134,7 +11134,7 @@
 	(footprint "Footprints:logo_utn"
 		(layer "F.Cu")
 		(uuid "a6e9302c-9ada-484b-ab14-5500d311d555")
-		(at 76 2.5)
+		(at 74.382936 2.002394)
 		(property "Reference" "G***"
 			(at 7.5 -1 0)
 			(layer "F.SilkS")
@@ -15235,7 +15235,7 @@
 				)
 			)
 		)
-		(property "Value" "PCA9685PW_118"
+		(property "Value" "PCA9685"
 			(at 0.4272 -6.184 0)
 			(layer "F.SilkS")
 			(uuid "b20494eb-4e87-48a1-b522-71a9553b279d")
@@ -21165,7 +21165,7 @@
 		(uuid "631073f9-3c97-4bc3-890c-9152fe58f174")
 		(at -10.01 41.78)
 		(property "Reference" "J5"
-			(at 0 0.5 180)
+			(at 0 0.5 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "90ebbf64-02fe-491c-9fa0-da46b744195b")
@@ -25206,7 +25206,7 @@
 		(uuid "e001223f-8347-4b43-a517-20c819fb9712")
 		(at -9.95 17.13)
 		(property "Reference" "J4"
-			(at 0 0.5 180)
+			(at 0 0.5 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "d4111e20-b482-4545-95e8-f22da14a39d5")
@@ -27993,8 +27993,8 @@
 			)
 		)
 	)
-	(gr_text "Proyecto Final - Michel, Sotelo"
-		(at 20 13 0)
+	(gr_text "Proyecto Final\nMichel, Sotelo"
+		(at 74.632936 6.052394 0)
 		(layer "F.SilkS")
 		(uuid "24964b83-0313-41aa-acba-c239b679768d")
 		(effects
@@ -28034,6 +28034,28 @@
 			(font
 				(size 1 1)
 				(thickness 0.16)
+			)
+		)
+	)
+	(gr_text "+"
+		(at -10.05 25.12 90)
+		(layer "B.SilkS")
+		(uuid "93f0916f-3b6c-4b85-8289-aaf053f1ec7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(gr_text "+"
+		(at -10.05 49.66 90)
+		(layer "B.SilkS")
+		(uuid "cfc64feb-a383-4681-8e72-c00f7a05bf9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -37899,6 +37921,10 @@
 				(xy -2.64156 11.5015)
 			)
 		)
+	)
+	(group ""
+		(uuid "aec63dd5-9d74-489a-8a93-844f61182dda")
+		(members "24964b83-0313-41aa-acba-c239b679768d" "a6e9302c-9ada-484b-ab14-5500d311d555")
 	)
 	(group ""
 		(uuid "21d0dade-1c77-4f80-a8b8-2ed3c295264b")
