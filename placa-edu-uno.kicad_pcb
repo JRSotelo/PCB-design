@@ -4892,7 +4892,7 @@
 		(uuid "46c2f5e1-98c5-45b6-afec-ebff09dc33be")
 		(at 82.804 46.268 -90)
 		(property "Reference" "J2"
-			(at 5.357 2.629 90)
+			(at -0.268 2.804 90)
 			(layer "F.SilkS")
 			(uuid "31d1ad1c-10d3-4ad6-b11c-a0f81b971908")
 			(effects
@@ -27141,6 +27141,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f4e39db5-670e-4272-99c4-850022f9225b")
+	)
+	(gr_text "+"
+		(at 80 49 90)
+		(layer "F.SilkS")
+		(uuid "11803fcc-9c56-4103-9927-e61fd1ae317e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
 	)
 	(dimension
 		(type aligned)
