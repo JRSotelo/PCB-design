@@ -20374,6 +20374,7 @@
 			(at 0 -1 180)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "464e5b25-0947-4701-83e7-3a912b0ed57f")
 			(effects
 				(font
@@ -20465,19 +20466,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "49c737ca-2c81-4924-9df3-baaeee0af504")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "3a12b37f-558e-456e-a77c-28fc10080e5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0.03 5.91)
@@ -24427,6 +24415,7 @@
 			(at 0 -1 180)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "55baaf58-8b96-4841-933a-7cb346f7b472")
 			(effects
 				(font
@@ -24518,19 +24507,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "3c38f480-e406-4452-8744-d2b488a6317b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.5 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "731e0445-3c96-479a-99f2-195d54677ff1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole rect
 			(at 0.03 5.91)
@@ -33061,7 +33037,7 @@
 		)
 		(polygon
 			(pts
-				(xy 75.25 39.92) (xy 75.250312 39.920005) (xy 75.25 39.92)
+				(xy 75.25 39.92) (xy 75.250312 39.920005)
 			)
 		)
 		(filled_polygon
