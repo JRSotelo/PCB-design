@@ -1,0 +1,9 @@
+LISTA
+
+CL32B226KOJNNNE 22 µF ±10% 16V Ceramic Capacitor X7R 1210 (3225 Metric)
+SPM10040T-4R7M  Inductor Power Shielded Wirewound 4.7uH 20%
+CC0603KRX7R7BB474 0.47 µF ±10% 16V Ceramic Capacitor X7R 0603 
+CL31B106KOHNNNE 10 µF ±10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)
+CL31B225KOHNNNE 2.2 µF ±10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)
+0805W8F2432T5E 24.3K Ohm 1/8W Thick Film Resistor 0805 Chip - Surface Mount
+LM73606RNPR  Regulador

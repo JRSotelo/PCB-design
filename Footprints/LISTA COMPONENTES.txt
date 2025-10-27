@@ -1,0 +1,18 @@
+MTSW-113-09-L-D-500 CONN HEADER VERT 26POS 2.54MM
+CL10B221KB8NNNC 220 pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)
+0402WGF6803TCE 680K Ohm 1/16W Thick Film Resistor 0402 Chip - Surface Mount
+MAX98357AETE_T Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance
+EEU-FR1E102LB Capacitor,Alum Lytic,Cap 1000 uF
+691253700002 Bornera 5.00 MM TERMINAL BLOCK
+0603WAF2103T5E 210K Ohm 1/10W Thick Film Resistor 0603 Chip - Surface Mount
+0603WAJ0104T5E 100K Ohm 1/10W Thick Film Resistor 0603 Chip - Surface Mount
+BLM18PG121SN1D 120 Ohms @ 100 MHz 1 Power Line Ferrite Bead 0603 
+CHV2512-FX-1004ELF Resistor, Thick Film, SMD, Res 1.0M Ohms, Pwr-Rtg 1 W, Tol 1%, 2512, 100TCR | Bourns CHV2512-FX-1004ELF
+CL05B104KO5NNNC 0.1 µF ±10% 16V Ceramic Capacitor X7R 
+TSW-101-07-T-T Connector Header Through Hole 3 position 
+RC0402FR-07220RL220 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film
+CR0603-FX-4700ELF CR0603 SMD Thick Film Resistor,470 Ohms,Pwr-Rtg 0.1 W,Tol 1%,SMT | Bourns CR0603-FX-4700ELF
+CR0603AFX-1002EAS Resistor, AS 0603 10k 1% 100mW TC100
+CL21A106KOQNNNE 10 µF ±10% 16V Ceramic Capacitor X5R 0805 (2012 Metric) 
+ICS-43434 60 Hz ~ 20 kHz Digital, I2S Microphone MEMS (Silicon) 1.65 V ~ 3.63 V Omnidirectional (-26 ±1dB @ 94dB SPL) Solder Pads
+PCA9685PW_118 LED Driver IC 16 Output Linear - PWM Dimming 25mA 28-TSSOP
