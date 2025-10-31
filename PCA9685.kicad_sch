@@ -2142,16 +2142,22 @@
 		(uuid "0357b054-6c37-4067-890c-21f3573c73a2")
 	)
 	(junction
-		(at 148.59 68.58)
+		(at 151.13 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46e2f398-7acc-4998-881c-1cd13b002379")
+		(uuid "3ef58426-3186-4703-82eb-61d6a7b031c8")
 	)
 	(junction
 		(at 233.68 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61e60df7-497d-4297-8ae9-84e6e4287f1d")
+	)
+	(junction
+		(at 135.89 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66164439-1656-4ba3-95e0-e0e1830f6521")
 	)
 	(no_connect
 		(at 196.85 100.33)
@@ -2237,6 +2243,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 91.44) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c1c623-ecf1-45fe-b23d-a13cf1c0cb80")
+	)
+	(wire
+		(pts
 			(xy 46.99 59.69) (xy 48.26 59.69)
 		)
 		(stroke
@@ -2257,7 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 148.59 68.58)
+			(xy 132.08 68.58) (xy 135.89 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2297,6 +2313,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 68.58) (xy 190.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b494472-e60b-4db9-9f8a-adcf4e2cb9dc")
+	)
+	(wire
+		(pts
 			(xy 190.5 68.58) (xy 190.5 72.39)
 		)
 		(stroke
@@ -2307,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 147.32) (xy 87.63 156.21)
+			(xy 135.89 68.58) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 148.59 72.39)
+			(xy 151.13 68.58) (xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2354,6 +2380,16 @@
 			(type default)
 		)
 		(uuid "3bb83b3a-7ee5-423b-a22e-44e63776bcc1")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 151.13 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9c423f-d877-4130-83cd-700560b6d149")
 	)
 	(wire
 		(pts
@@ -2457,16 +2493,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 190.5 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f8d732-9de7-425b-a950-7e0ee7480909")
-	)
-	(wire
-		(pts
 			(xy 167.64 77.47) (xy 170.18 77.47)
 		)
 		(stroke
@@ -2537,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 163.83) (xy 87.63 170.18)
+			(xy 135.89 85.09) (xy 135.89 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2564,16 +2590,6 @@
 			(type default)
 		)
 		(uuid "d1f573a4-eb9f-4a4a-a3e2-606c4dfeb947")
-	)
-	(wire
-		(pts
-			(xy 87.63 147.32) (xy 82.55 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc815bd7-136b-4d96-b152-4851f91f08dd")
 	)
 	(wire
 		(pts
@@ -2696,27 +2712,16 @@
 		)
 		(uuid "0177e716-ccd1-4aad-b570-ca4bc2ad11f1")
 	)
-	(hierarchical_label "5V_Fuente"
+	(hierarchical_label "5V_RPI"
 		(shape input)
-		(at 104.14 59.69 0)
+		(at 104.14 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "10635947-d13e-47b2-968d-820e63a20d6a")
-	)
-	(hierarchical_label "5V_Fuente"
-		(shape input)
-		(at 82.55 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c3372ee-74b4-4740-9ab2-d6f91c2c2abe")
+		(uuid "1ab0a200-f5ef-47b7-9499-c995cbff4027")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -2731,7 +2736,7 @@
 	)
 	(hierarchical_label "5V_RPI"
 		(shape input)
-		(at 144.78 68.58 180)
+		(at 132.08 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2739,6 +2744,17 @@
 			(justify right)
 		)
 		(uuid "5ffcd1fc-91de-4694-bfe0-4a9a80287a67")
+	)
+	(hierarchical_label "5V_RPI"
+		(shape input)
+		(at 104.14 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b28ee60-c85a-4420-9988-c39a48c849c9")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -2751,18 +2767,7 @@
 		)
 		(uuid "7118bc53-bb97-4ec7-bcd1-61a575a640fd")
 	)
-	(hierarchical_label "5V_Fuente"
-		(shape input)
-		(at 104.14 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c0c7fbb-f02c-47ae-8c2c-3dbc35c81858")
-	)
-	(hierarchical_label "5V_Fuente"
+	(hierarchical_label "5V_RPI"
 		(shape input)
 		(at 104.14 81.28 0)
 		(effects
@@ -2771,18 +2776,18 @@
 			)
 			(justify left)
 		)
-		(uuid "96af4e7d-1994-464d-8738-97f96c83c637")
+		(uuid "875f245e-972b-41b1-8445-a0f179b2692c")
 	)
-	(hierarchical_label "5V_Fuente"
+	(hierarchical_label "5V_RPI"
 		(shape input)
-		(at 104.14 101.6 0)
+		(at 104.14 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d0737a5f-2bee-4a51-9885-d6d774945453")
+		(uuid "d4602f0d-fed5-4583-99fd-f1e18bc3eadb")
 	)
 	(hierarchical_label "5V_RPI"
 		(shape input)
@@ -3326,7 +3331,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 170.18 0)
+		(at 135.89 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3335,7 +3340,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b74d91a-0134-4957-802b-cb7d063ed4e4")
 		(property "Reference" "#PWR038"
-			(at 87.63 176.53 0)
+			(at 135.89 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +3349,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 175.26 0)
+			(at 135.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 170.18 0)
+			(at 135.89 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3366,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 170.18 0)
+			(at 135.89 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3375,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 170.18 0)
+			(at 135.89 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5119,16 +5124,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 80.01 0)
+		(at 151.13 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed320ce3-56f4-4dd9-aeb7-ceb3935cbfb8")
 		(property "Reference" "#PWR013"
-			(at 148.59 86.36 0)
+			(at 151.13 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5137,7 +5141,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 85.09 0)
+			(at 151.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 80.01 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 80.01 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 80.01 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5189,7 @@
 	)
 	(symbol
 		(lib_id "CL31B106KOHNNNE:CL31B106KOHNNNE")
-		(at 148.59 77.47 90)
+		(at 151.13 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5194,7 +5198,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfae5f1-6b1a-41f8-8f9c-84ad7ca39c1a")
 		(property "Reference" "C9"
-			(at 152.4 74.9299 90)
+			(at 154.94 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5207,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 152.4 77.4699 90)
+			(at 154.94 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5216,7 @@
 			)
 		)
 		(property "Footprint" "CL31B106KOHNNNE:CAPC3216X180N"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5244,7 @@
 			)
 		)
 		(property "L1_min" "0.2"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +5254,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CL31B106KOHNNNE/Samsung/view-part/?ref=eda"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5264,7 @@
 			)
 		)
 		(property "Package" "SMD-2 Samsung"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5274,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CL31B106KOHNNNE/Samsung/view-part/?ref=snap"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5284,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5294,7 @@
 			)
 		)
 		(property "E_min" "1.4"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5304,7 @@
 			)
 		)
 		(property "MF" "Samsung"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5314,7 @@
 			)
 		)
 		(property "D_min" "3.0"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5324,7 @@
 			)
 		)
 		(property "D_nom" "3.2"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5334,7 @@
 			)
 		)
 		(property "L_min" "0.2"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5344,7 @@
 			)
 		)
 		(property "E_max" "1.8"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5354,7 @@
 			)
 		)
 		(property "L_max" "0.8"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5364,7 @@
 			)
 		)
 		(property "A_max" "1.8"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5374,7 @@
 			)
 		)
 		(property "L1_nom" "0.5"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5380,7 +5384,7 @@
 			)
 		)
 		(property "Description_1" "10 µF ±10% 16V Ceramic Capacitor X7R 1206 (3216 Metric)"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5394,7 @@
 			)
 		)
 		(property "D_max" "3.4"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5404,7 @@
 			)
 		)
 		(property "A_nom" "1.8"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5414,7 @@
 			)
 		)
 		(property "L1_max" "0.8"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5424,7 @@
 			)
 		)
 		(property "A_min" "1.8"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5434,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5444,7 @@
 			)
 		)
 		(property "MP" "CL31B106KOHNNNE"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5454,7 @@
 			)
 		)
 		(property "E_nom" "1.6"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5464,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5470,7 +5474,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +5484,7 @@
 			)
 		)
 		(property "L_nom" "0.5"
-			(at 148.59 77.47 0)
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 87.63 160.02 0)
+		(at 135.89 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5515,7 +5519,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee9dfecc-3c47-4b7b-bbab-b32b47ab69b2")
 		(property "Reference" "C10"
-			(at 91.44 158.1149 0)
+			(at 139.7 79.3749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5528,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 91.44 160.6549 0)
+			(at 139.7 81.9149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5537,7 @@
 			)
 		)
 		(property "Footprint" "EEUFR1E102LB:CAPPRD500W60D1000H2500"
-			(at 87.63 160.02 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 160.02 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5555,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 87.63 160.02 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
